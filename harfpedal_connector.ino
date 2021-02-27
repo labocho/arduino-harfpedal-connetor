@@ -13,7 +13,7 @@ const int VOL_MAX = 840;
 // const int VOL_MIN = 320;
 // const int VOL_MAX = 970;
 
-const int INTERVAL = 100;
+const int INTERVAL = 50;
 
 int last_value = -1;
 
