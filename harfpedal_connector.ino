@@ -18,7 +18,6 @@ const int INTERVAL = 100;
 int last_value = -1;
 
 void setup() {
-  Serial.begin(9600);
   pinMode(8, INPUT);
   MIDI.begin(1);
   MIDI.turnThruOff();
